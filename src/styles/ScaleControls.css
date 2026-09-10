@@ -1,0 +1,111 @@
+.scale-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
+    border: 1px solid #1e2a45;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.scale-controls-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.scale-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.scale-buttons-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.scale-btn {
+    padding: 6px 8px;
+    background: #1e2a45;
+    color: #cbd5e1;
+    border: 1px solid #334155;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    font-family: 'Courier New', monospace;
+}
+
+.scale-btn:hover:not(:disabled) {
+    background: #334155;
+    border-color: #475569;
+    color: #f1f5f9;
+}
+
+.scale-btn:active:not(:disabled) {
+    background: #475569;
+    transform: scale(0.98);
+}
+
+.scale-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.scale-btn-sm {
+    padding: 6px 8px;
+    font-size: 12px;
+}
+
+.scale-btn-toggle {
+    background: #1e2a45;
+}
+
+.scale-btn-toggle.active {
+    background: #1d4ed8;
+    border-color: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(29, 78, 216, 0.3);
+}
+
+.scale-btn-reset {
+    grid-column: 1 / -1;
+    background: #7f1d1d;
+    border-color: #991b1b;
+    color: #fecaca;
+    padding: 8px 12px;
+    font-weight: 700;
+}
+
+.scale-btn-reset:hover {
+    background: #991b1b;
+    border-color: #dc2626;
+    color: #fca5a5;
+}
+
+.scale-btn-reset:active {
+    background: #dc2626;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .scale-controls {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .scale-buttons-group {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .scale-btn {
+        padding: 5px 6px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,86 @@
+======================================================================
+PROJECT STRUCTURE
+======================================================================
+Root: D:\Fin\Prod\Live Trading
+
+├── backtesting/
+│   ├── Files/
+│   │   ├── Fine_timeframe/
+│   │   └── Signals/
+│   ├── Output/
+│   ├── tests/
+│   │   └── test_backtester.py
+│   ├── __init__.py
+│   ├── main.py
+│   └── README.md
+├── collected data/
+│   ├── BTCUSD/
+│   ├── CRUDE/
+│   ├── ETHUSD/
+│   ├── EURUSD/
+│   ├── GBPUSD/
+│   ├── NASDAQ/
+│   ├── RUSSELL/
+│   ├── S&P 500/
+│   ├── USDCHF/
+│   ├── XAGUSD/
+│   ├── XAUUSD/
+├── public/
+│   ├── data/
+│   └── vite.svg
+├── signals recorded/
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── ActiveTradePanel.tsx
+│   │   ├── AnalyticsSetup.tsx
+│   │   ├── ChartPanel.tsx
+│   │   ├── DateNavigator.tsx
+│   │   ├── MultiChartLayout.tsx
+│   │   ├── ScaleControls.tsx
+│   │   ├── TradeControls.tsx
+│   │   └── TradeHistory.tsx
+│   ├── services/
+│   │   ├── csvLoader.ts
+│   │   ├── simulationEngine.ts
+│   │   └── tradeRecorder.ts
+│   ├── styles/
+│   │   └── ScaleControls.css
+│   ├── types/
+│   │   ├── ohlcv.ts
+│   │   └── trade.ts
+│   ├── utils/
+│   │   ├── heikinAshi.ts
+│   │   └── timeFormat.ts
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── .gitignore
+├── compare_csvs.py
+├── eslint.config.js
+├── exp.ipynb
+├── gen_data.py
+├── Get
+├── get_data.py
+├── index.html
+├── package-lock.json
+├── package.json
+├── python github_setup.py
+├── README.md
+├── TRADE_ANALYTICS_UI_LAYOUT.md
+├── TRADE_ANALYTICS_UPGRADE_TASK.md
+├── tsc_output.txt
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+======================================================================
+SUMMARY
+======================================================================
+Folders: 28
+Files shown: 45
+CSV files: 40
+======================================================================
